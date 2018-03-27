@@ -1,0 +1,310 @@
+/*--------------------------------*/
+h4{
+    font-size: 20px;
+    color: #1a1a1a;
+    font-weight: bold;
+}
+/*banner start*/
+#banner {
+    width: 100%;
+    display: flex;
+}
+
+#banner img {
+    width: 100%;
+}
+
+/*banner end*/
+
+/*company introduction start*/
+#company {
+    /*margin-top: 4rem;*/
+    display: flex;
+    justify-content: flex-end;
+    /*background: green;*/
+    width: 1200px;
+    margin: 4rem auto;
+    position: relative;
+}
+
+#company .com-one {
+    width: 514px;
+    height: 559px;
+    padding: 50px;
+    background: #fff;
+    border: 1px solid red;
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#company .com-one .text {
+    font-size: 14px;
+    line-height: 2rem;
+    margin-top: 2rem;
+}
+
+#company .com-two {
+    width: 570px;
+    height: 609px;
+    /*background: red;*/
+    display: inline-block;
+    background: url("../images/about.png");
+}
+
+#company .com-two:hover {
+    background: url("../images/company-1.jpg");
+}
+
+.empty-title {
+    width: 3rem;
+    border: 1px solid #c30000;
+    margin: 0.5rem 0;
+}
+
+.empty {
+    width: 2rem;
+    border: 1px solid #c30000;
+    margin: 0.5rem 0;
+}
+
+/*company introduction end*/
+
+/*OUR BUSINESS start*/
+#our {
+    width: 100%;
+    background: #f2f2f2;
+    padding-top: 125px;
+    padding-bottom: 11rem;
+}
+
+#our .img-list ul {
+    margin-top: 3rem;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#our .img-list ul li {
+    height: 435px;
+    background: #ffffff;
+}
+
+#our .img-list ul li img {
+    display: block;
+}
+
+.img-list .img-list-title {
+    text-align: center;
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-list-title .empty {
+    margin: 0.5rem auto;
+}
+
+.img-list-title p {
+    font-size: 12px;
+}
+.ty-list li:hover .ty-list-inner-title{
+    display: none;
+    transition: 1s;
+}
+.ty-list li:hover .ty-show{
+    display: block;
+    transition: 1s;
+}
+.ty-list .ty-show{
+    width: 250px;
+    height: 170px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    padding: 0 20px;
+    display: none;
+}
+.ty-show p{
+    display: flex;
+    height: 170px;
+    align-items: center;
+    line-height: 2rem;
+    justify-content: center;
+}
+/*OUR BUSINESS end*/
+
+/*OUR CULTURE start*/
+#culture {
+    padding: 1.5rem 0 20rem 0;
+    /*background: #999999;*/
+}
+
+#culture .culture-img-row {
+    /*display: flex;*/
+    /*align-items: center;*/
+    position: relative;
+}
+
+#culture .culture-img {
+    width: 50%;
+    height: 222px;
+    background: url("../images/banner-1.png") no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: -5rem;
+    left: 0;
+}
+
+#culture .culture-title {
+    float: right;
+    margin-right: 40%;
+}
+
+#culture .ty-width {
+    clear: both;
+    /*background: red;*/
+    height: 300px;
+    padding-top: 10%;
+}
+
+#culture .culture-item-max {
+    width: 395px;
+    height: 530px;
+    background: #f2f2f2;
+    /*border: 1px solid gold;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#culture .culture-item {
+    width: 395px;
+    height: 260px;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.culture-item-flex {
+    display: flex;
+}
+
+.culture-item-flex ul {
+    flex: 1;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.culture-item-flex ul li:nth-child(1), .culture-item-flex ul li:nth-child(3) {
+    margin-left: 8px
+}
+
+.culture-item-flex ul li:nth-child(3), .culture-item-flex ul li:nth-child(4) {
+    margin-top: 10px
+}
+
+.rotate-box .rotate-p{
+    opacity: 0;
+    position: absolute;
+    width: 360px;
+    padding: 0 35px;
+}
+.rotate-box:hover .ty-center{
+    animation: 1s move linear 1;
+    animation-fill-mode: both;
+}
+.rotate-box:hover .rotate-p{
+    animation: 1s movep linear 1;
+    animation-fill-mode: both;
+}
+@keyframes move{
+    0%{
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+    50%{
+        transform: rotateY(90deg);
+        opacity: 1;
+    }
+    100%{
+        transform: rotateY(180deg);
+        opacity: 0;
+    }
+}
+@keyframes movep{
+    0%{
+        transform: rotateY(-180deg);
+        opacity: 0;
+    }
+    50%{
+        transform: rotateY(-90deg);
+        opacity: 0;
+    }
+    100%{
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+
+/*OUR CULTURE end*/
+
+/*Recent news start*/
+#news .news-img-row {
+    height: 222px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#news .news-img {
+    width: 50%;
+    height: 222px;
+    background: url("../images/banner-2.png") no-repeat;
+    background-size: 100%;
+}
+
+#news .news-title {
+    margin-right: 1rem;
+}
+
+#news .ty-width {
+    /*background: red;*/
+}
+
+#news .news-ul-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+
+#news .news-ul-flex li {
+    width: 292px;
+    height: 350px;
+    background: #ffffff;
+}
+
+#news .news-ul-flex li p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5rem;
+    padding: 1rem;
+}
+
+#news .news-ul-flex li img {
+    display: block;
+}
+
+.top {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*Recent news end*/
