@@ -1,0 +1,265 @@
+.nav_text a:nth-child(5){
+    padding-bottom: 10px;
+    color: #c30000;
+    border-bottom: 2px solid #c30000;
+}
+
+.small_nav_txt{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    text-align: center;
+    height: 132px;
+    border: 1px solid transparent;
+}
+.small_nav_txt h2{
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    line-height: 80px;
+}
+.small_nav_txt a{
+    width: 174px;
+}
+.small_nav_txt a:first-child h2{
+    border:1px solid #c30000;
+    color: #c30000;
+}
+
+.small_nav_txt a:nth-child(2) h2:hover,.small_nav_txt a:nth-child(3) h2:hover,.small_nav_txt a:nth-child(4) h2:hover{
+    border:1px solid #c30000;
+    color: #c30000;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 894px;
+    background:url(../images/news-banner.jpg) no-repeat center top;
+}
+.banner .banner_text{
+    padding-top: 526px;
+}
+.left{
+    position: absolute;
+    top: 12%;
+    left: 12%;
+    height: 196px;
+    background:url(../images/bankuang.png) no-repeat center;
+}
+.left h3{
+    margin: 44px 0 18px 120px;
+    font-size: 36px;
+    color: #f2f2f2;
+}
+.left .xian1{
+    margin:0 0 26px 120px;
+    height: 4px;
+    width: 72px;
+    background: #c30000;
+}
+.left h4{
+    margin-left: 120px;
+    font-size: 30px;
+    color: #ccc;
+}
+.banner .jiaohu{
+    display: flex;
+    justify-content:space-around;
+    width: 826px;
+    height: 222px;
+}
+.jiaohu .pic1 img{
+    transform:scale(1) translate(0,0);
+    transition:all 0.5s ease;
+    opacity: 1;
+}
+.banner .jiaohu:hover{
+
+}
+.banner .right{
+    position: absolute;
+    left: 1200px;
+    top: 20%;
+    text-align: center;
+    width: 354px;
+    height: 484px;
+}
+.banner .right h2{
+    position: absolute;
+    top: 40px;
+    left: 130px;
+    width: 76px;
+    line-height: 74px;
+    font-size: 14px;
+    color: #fff;
+    background:#c30000;
+}
+.banner .right h2:hover{
+    
+}
+.banner .right .bg{
+    margin-top: 80px;
+    padding-top: 54px;
+    width: 352px;
+    height: 350px;
+    background: #f2f2f2;
+}
+.banner .right h4{
+    margin: 0 auto;
+    
+    font-size: 24px;
+    color: #1a1a1a;
+    line-height: 36px;
+}
+.banner .right p{
+    margin: 20px 50px 0;
+    text-align: left;
+    font-size: 12 px;
+    color: #4c4c4c;
+    line-height: 26px;
+}
+
+.jiaohu .pic1 img.n-2{
+    top: auto;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 60px;
+    transform:translate(0,0);
+    transition:all 0.2s ease-in;
+    opacity: 0;
+}
+
+.jiaohu .pic1:hover img.n-2{
+    transform:translate(0,-60px);
+    opacity: 1;
+}
+
+
+
+
+/*gonggaodongtai*/
+.gonggao{
+    margin-bottom: 90px;
+    height: 473px;
+}
+
+.gonggao_text{
+    margin-top: 82px;
+    width: 492px 
+}
+.gonggao_text h3{
+    margin-bottom: 14px;
+    font-size: 30px;
+    color: #1a1a1a;
+    font-weight: bold;
+}
+.gonggao_text .xian{
+    margin-bottom: 22px;
+    height: 4px;
+    background: #c30000;
+    width: 70px;
+}
+.gonggao_text h4{
+    margin-bottom: 24px;
+    font-size: 24px;
+    color: #4c4c4c;
+    font-weight: bold;
+}
+.gonggao_text h5{
+    margin-bottom: 22px;
+    font-size: 16px;
+    color: #4c4c4c;
+    font-weight: bold;
+}
+.gonggao_text p{
+    font-size: 12px;
+    line-height: 26px;
+    margin-bottom: 30px;
+
+}
+.gonggao_text a{
+    display: block;
+    text-align: center;
+    width: 126px;
+    line-height: 38px;
+    border:1px solid #c30000;
+    color: #1a1a1a;
+}
+.gonggao_text a:hover{
+    border: none;
+    color: #f2f2f2;
+    background: #c30000;
+}
+
+
+/*swiper*/
+.tird{
+    width: 100%;
+    height: 811px;
+    background: #f2f2f2;
+}
+.swi{
+    text-align: right;
+}
+.swi h3{
+    margin: 106px 0 14px;
+    font-size: 30px;
+    color: #1a1a1a;
+    font-weight: bold;
+}
+.swi .hongxian{
+    margin: 0 0 30px 1130px;
+    height: 4px;
+    background: #c30000;
+    width: 70px; 
+}
+.swi h4{
+    margin-bottom: 55px;
+    font-size: 24px;
+    color: #4c4c4c;
+    font-weight: bold;
+}
+.swiper-slide{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 80px;
+}
+
+
+
+/*company honner*/
+.honner{
+    height: 710px;
+}
+.honner_top h3{
+    margin: 102px 0 14px 0;
+    font-size: 30px;
+    color: #1a1a1a;
+    font-weight: bold;
+}
+.honner_top .nedxian{
+    margin-bottom: 20px;
+    height: 4px;
+    background: #c30000;
+    width: 70px;
+}
+.honner_top h4{
+    margin-bottom: 70px;
+    font-size: 24px;
+    color: #4c4c4c;
+    font-weight: bold;
+}
+.honner_end{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+}
+.honner_end img{
+    margin-bottom: 30px;
+}
+.honner_end span{
+    font-size: 12px;
+    color: #4c4c4c;
+}

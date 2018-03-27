@@ -1,0 +1,88 @@
+/*头部CSS*/
+.header{
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 5px 10px #f2f2f2;
+}
+.w1760{
+    width: 1760px;
+    margin: 0 auto;
+}
+.nav img{
+    margin-top: 15px;
+}
+.nav_text{
+    margin-top: 43px;
+    display: flex;
+    justify-content：space-between;
+    width: 844px;
+}
+.nav_text_left{
+    margin-right: 52px;
+    display: flex;
+    justify-content:space-between;
+    width: 760px;
+}
+
+.nav_text_right{
+    padding: 0 8px;
+    border: 1px solid rgba(0,0,0,.3);
+    width: 62px;
+    height: 20px;
+}
+.nav_text_right a{
+    color: rgba(0,0,0,.5);
+}
+.nav_text_right a:first-child{
+    color: #c30000;
+}
+.nav_text_right a:last-child:hover{
+    color: #c30000;
+}
+.nav_text div.nav_text_left a:hover{
+    padding-bottom: 10px;
+    color: #c30000;
+    border-bottom: 2px solid #c30000;
+}
+/*尾部CSS*/
+.footer{
+    width: 100%;
+    height: 170px;
+    background: rgba(0,0,0,.9);
+    font-size: 0;
+    text-align: center;
+}
+.footer_all{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 40px 0;
+    width: 1200px;
+    border-bottom: 1px solid #808080;
+}
+.footer_all .logo-1 img{
+    display: inline-block;
+    color: #f2f2f2;
+}
+.footer_text{
+    display: flex;
+    justify-content:space-between;
+    width: 602px;
+}
+.footer_text a{
+    font-size: 14px;
+    color: #f2f2f2;
+}
+.footer_img{
+    display: flex;
+    justify-content:space-between;
+    width: 108px;
+}
+.footer_img img{
+    display: inline-block;
+}
+.footer div span{
+    line-height: 39px;
+    font-size: 14px;
+    color: #6d6d6d;
+}

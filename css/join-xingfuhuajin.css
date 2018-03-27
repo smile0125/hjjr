@@ -1,0 +1,120 @@
+/*头部*/
+.nav_f{
+    width: 100%;
+    box-shadow:0 5px 10px #f2f2f2;
+}
+.nav_text{
+    display: flex;
+    justify-content:space-between;
+    margin: 28px 0 22px 721px;
+    width: 479px;
+    height: 50px;
+    text-align: center;
+    
+}
+.nav_text h2{
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #1a1a1a;
+    font-weight: bold;
+}
+.nav_text h3{
+    font-size: 12px;
+    color: #1a1a1a;
+    text-transform:uppercase;
+    font-weight: bold;
+}
+.nav_text ul:last-child li a h2,.nav_text ul:last-child li a h3{
+    color: #c30000;
+}
+div.nav_text ul li a h2:hover,div.nav_text ul li a h3:hover{
+    color: #c30000;
+}
+
+/*.small_nav{
+    width: 100%;
+    height: 56px;
+    background: #1a1a1a;
+}
+.small_nav_txt{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    text-align: center;
+}
+.small_nav h2{
+    width: 256px;
+    line-height: 56px;
+    font-size: 20px;
+    color: #e5e5e5;
+}
+.small_nav_txt a:first-child{
+    margin-left: 116px;
+    background: #e6e6e6;
+}
+.small_nav_txt a:first-child h2{
+    color: #c30000;
+}
+.small_nav_txt a:nth-child(2) h2:hover,.small_nav_txt a:nth-child(3) h2:hover{
+    color: #c30000;
+    background: #e6e6e6;
+}*/
+/*body*/
+.join_con{
+    height: 1680px;
+    background: url(../images/join-1-hr.png) no-repeat;
+    background-position: 40% 67%;
+}
+.w968{
+    width: 968px;
+    margin: 0 auto;
+}
+.join_con_1{
+    height: 1000px;
+    background: url(../images/join-2-hr.png) no-repeat;
+    background-position: 75% 45%;
+}
+.join_con1,.join_con2,.join_con3{
+    margin-top: 150px;
+    position: relative;
+}
+.join_con1 img,.join_con3 img,.join_con2 img{
+    margin-top: 90px;
+}
+.join_con1_text,.join_con2_text,.join_con3_text{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 484px;
+    height: 292px;
+    background:#f2f2f2;
+    box-shadow: 2px 5px 20px #666;
+}
+.join_con2_text{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.join_con1_text h4,.join_con2_text h4,.join_con3_text h4{
+    margin:40px 0 20px 48px;
+    width: 104px;
+    font-size: 26px;
+    color: #1a1a1a;
+    line-height: 60px;
+    border-bottom: 4px solid #c30000;
+}
+.join_con1_text p,.join_con2_text p,.join_con3_text p{
+    margin-left: 48px;
+    line-height: 22px;
+}
+
+
+.fot{
+    width: 100%;
+    background:#1a1a1a;
+    text-align: center;
+}
+.fot span{
+    line-height: 94px;
+    color: #666;
+}

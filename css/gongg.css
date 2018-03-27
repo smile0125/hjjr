@@ -1,0 +1,40 @@
+.nav_text a:nth-child(5){
+    padding-bottom: 10px;
+    color: #c30000;
+    border-bottom: 2px solid #c30000;
+}
+
+.neirong{
+    margin: 120px auto;
+    height: 868px;
+    background: #f2f2f2;
+}
+.neirong h3{
+    margin-left: 120px;
+    font-weight: bold;
+    line-height: 74px;
+    width: 960px;
+    font-size: 30px;
+    color: #1a1a1a;
+    border-bottom: 1px solid #ccc;
+}
+.neirong h4{
+    text-align: center;
+    font-size: 24px;
+    color: #4c4c4c;
+    line-height: 220px;
+}
+.neirong p{
+    padding-left: 300px;
+    text-align: left;
+    font-size: 14px;
+    color: #4c4c4c;
+    line-height: 26px;
+}
+.neirong h6{
+    margin: 126px 0 0 862px;
+    text-align: left;
+    font-size: 14px;
+    color: #4c4c4c;
+    line-height: 26px;
+}

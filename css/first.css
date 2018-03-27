@@ -1,0 +1,114 @@
+/*top*/
+.nav_f{
+    width: 100%;
+    box-shadow:0 5px 10px #f2f2f2;
+}
+                
+.nav_text{
+    display: flex;
+    justify-content:space-between;
+    margin:28px 0 22px 721px;
+    width: 479px;
+    height: 50px;
+    text-align: center;
+    box-shadow: 0 5px 10px #f2f2f2;
+}
+.nav_text h2{
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #1a1a1a;
+    font-weight: bold;
+}
+.nav_text h3{
+    font-size: 12px;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav_text .first li a h2,.nav_text .first li a h3{
+    color: #c30000;
+}
+div.nav_text ul li a h2:hover,div.nav_text ul li a h3:hover{
+    color: #c30000;
+}
+/*<!-- daohang -->*/
+/*.small_nav{
+    width: 100%;
+    height: 56px;
+    background: #1a1a1a;
+}
+.small_nav_txt{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    text-align: center;
+}
+.small_nav h2{
+    width: 256px;
+    line-height: 56px;
+    font-size: 20px;
+    color: #e5e5e5;
+}
+.small_nav_txt a:first-child{
+    margin-left: 116px;
+    height: 56px;
+    width:256px;
+    background: #e6e6e6;
+}
+.small_nav_txt a:first-child h2{
+    color: #c30000;
+}
+.small_nav_txt a:nth-child(2) h2:hover,.small_nav_txt a:nth-child(3) h2:hover{
+    color: #c30000;
+    background: #e6e6e6;
+}*/
+/*<!-- neirong -->*/
+.one{
+    width: 961px;
+    height: 340px;
+    margin-top: 100px;
+    margin-left: 110px;
+}
+.one .one-two img,.three-two{
+    margin-top: -292px;
+}
+.one .one-three p,.three-three p{
+    margin:-218px 78px 0 82px;
+    line-height: 32px;
+}
+.two{
+    width: 961px;
+    height: 340px;
+    margin-top: 112px;
+    margin-left: 110px;
+}
+.two-one img{
+    margin-top: -292px;
+}
+.two .two-two p{
+    margin:-158px -78px 0 130px;
+    line-height: 32px;
+}
+.three{
+    width: 961px;
+    height: 340px;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.three-three p{
+    margin-top: -200px;
+    margin-right: 110px;
+  /*  <!-- last -->*/
+}
+.last-over{
+    width: 100%;
+    height: 94px;
+    background: #1a1a1a;
+    margin-top: 100px;
+}
+.last-over-wenzi p{
+    color: #666;
+    text-align: center;
+    line-height: 94px;
+}   
+
