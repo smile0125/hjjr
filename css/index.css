@@ -216,10 +216,12 @@ h4{
     position: absolute;
     width: 360px;
     padding: 0 35px;
+    transition-duration:0.5s;
 }
 .rotate-box:hover .ty-center{
     animation: 1s move linear 1;
     animation-fill-mode: both;
+    transition-duration:0.5s;
 }
 .rotate-box:hover .rotate-p{
     animation: 1s movep linear 1;
